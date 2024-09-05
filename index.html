@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js-2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+
+   <div class="container">
+      <!-- ex1 --><hr>
+      <h2 class="text-danger">Click the button to show/hide the content</h2>
+      <button onclick="textShow()">Show</button>
+      <button onclick="textHide()">Hide</button>
+      <h3 id="sh">hello world</h3>
+
+      <!-- ex2 --><hr>
+      <h2 class="text-danger">Click the button to change the text</h2>
+      <button onclick="textChange()" type="button" class="btn btn-dark">textChange</button>
+      <h3 id="tc"> lorem, ipsum</h3>
+    
+     <!-- ex3 --><hr>
+     <h2 class="text-danger">Click the button to show the date</h2>
+     <button onclick="showDate()" class="btn btn-dark">Show Date</button>
+     <h3 id="sd">the date is</h3>
+
+    <!-- ex4 --><hr>
+    <h2 class="text-danger">Click the button to on /off the bulb</h2>
+    <button onclick="BulbOn()" class="btn btn-success">BulbOn</button>
+    <button onclick="BulbOff()" class="btn btn-danger">BulbOff</button> 
+    <img id="bulb" src="images/off.gif" alt=""> 
+
+    <!-- ex5 --><hr>
+    <h2 class="text-danger">Click the button to change the mood</h2>
+    <button onclick="EmojiA()" class="btn btn-danger">sad</button>
+    <button onclick="EmojiB()" class="btn btn-success">smile</button> 
+    <img class="em" id="em" src="images/sad.png" alt="">   
+
+    <!-- ex6 --><hr>
+    <h2 class="text-danger">Click the button to change the css</h2>
+    <button onclick="ChangeCss()">Change CSS</button>
+    <h3 id="hw">hello world</h3>
+
+    <!-- ex7 --><hr>
+    <h2 class="text-danger">Click the button to change the font size</h2>
+    <button onclick="fontSize()" type="button">Chnage font size</button>
+    <h3 id="fs">Knowing how to write a paragraph is incredibly important.</h3>
+
+     <!-- ex8 --><hr>
+     <h2 class="text-danger">Click the button to show result</h2>
+     <button onclick="ShowResult()">Show Result</button>
+     <h3 id="sr">Result is:</h3>
+
+     <!-- ex9 --><hr>
+     <h2 class="text-danger">Click the button to show age</h2>
+     <button onclick="ShowAge()">Show Age</button>
+     <h3 id="srr">Age is:</h3>
+
+     <!-- ex10 --><hr>
+     <h2 class="text-danger">Click the button to show roll</h2>
+     <button onclick="ShowRoll()">Show Roll</button>
+     <h3 id="ag">Roll is:</h3>
+
+    <!-- ex11 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr()">Show Result</button>
+     <h3 id="nb">Result is:</h3>
+
+     <!-- ex12 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr2()">Show Result</button>
+     <h3 id="nb2">Result is:</h3>
+
+     <!-- ex13 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr3()">Show Result</button>
+     <h3 id="nb3">Result is:</h3>
+
+     <!-- ex14 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr4()">Show Result</button>
+     <h3 id="nb4">Result is:</h3>
+
+     <!-- ex15 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr5()">Show Result</button>
+     <h3 id="nb5">Result is:</h3>
+
+     <!-- ex16 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr6()">Show Result</button>
+     <h3 id="nb6">Result is:</h3>
+
+     <!-- ex17 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr7()">Show Result</button>
+     <h3 id="nb7">Result is:</h3>
+
+     <!-- ex18 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr8()">Show Result</button>
+     <h3 id="nb8">Result is:</h3>
+
+     <!-- ex19 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr9()">Show Result</button>
+     <h3 id="nb9">Result is:</h3>
+
+     <!-- ex20 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr10()">Show Result</button>
+     <h3 id="nb10">Result is:</h3>
+
+     <!-- ex21 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onclick="ShowNbr11()">Show Result</button>
+     <h3 id="nb11">Result is:</h3>
+
+     <!-- ex22 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button ondblclick="ShowNbr12()">Show Result</button>
+     <h3 id="nb12">Result is:</h3>
+
+     <!-- ex23 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onmouseenter="ShowNbr13()">Show Result</button>
+     <h3 id="nb13">Result is:</h3>
+
+      <!-- ex24 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onmouseleave="ShowNbr14()">Show Result</button>
+     <h3 id="nb14">Result is:</h3>
+
+      <!-- ex25 --><hr>
+     <h2 class="text-danger">Click the button to show the result</h2>
+     <button onmouseover="ShowNbr15()">Show Result</button>
+     <h3 id="nb15">Result is:</h3>
+
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
